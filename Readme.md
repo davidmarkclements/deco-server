@@ -2,7 +2,7 @@
 
 deco-server is [decofun]['https://github.com/davidmarkclements/decofun'] as a service (DFaaS).
 
-It's a web service that names anonmyous functions in a piece of code, 
+It's a web service that names anonymous functions in a specified JavaScript file, 
 according to their surrounding context (e.g. is it returned from a function?) 
 and line number.
 
