@@ -43,6 +43,10 @@ app.get('/', function (req, res) {
 
 })
 
+app.get('/ping', function (req,res) {
+  res.send('pong');
+});
+
 app.get('/:id/:file', function (req, res) {
   var file = cache.get(req.params.id + '_' + req.params.file);
   if (!file) { return res.status(404).send('No match'); }
