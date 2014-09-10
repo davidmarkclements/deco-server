@@ -56,8 +56,23 @@ Once we have this we can alter our script tag, say we have a script tag like thi
 
 We simply change it to
 
-```
+```html
 <script src='http://decofun.herokuapp.com/rsxnyf/my-script.js'></script>
+```
+
+## Hosting locally
+
+To run deco-server locally
+
+```
+sudo npm i -g deco-server
+deco-server
+```
+
+This will start a server on port 8080. To specifiy the port do
+
+```
+PORT=9999 deco-server
 ```
 
 
