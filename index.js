@@ -57,7 +57,7 @@ app.post('/', function (req, res) {
     file.on('data', function (data) {
       chunks += data;
     }).on('end', function () {
-      cache.set(id + '_' + name, chunks);
+      cache.set(id + '_' + name, decofun(chunks));
       res.send(id + '/' + name + '\n'); 
     })
 
