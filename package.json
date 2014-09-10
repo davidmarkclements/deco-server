@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "connect-busboy": "0.0.1",
-    "decofun": "^1.0.0",
+    "decofun": "^1.0.2",
     "express": "^4.9.0",
     "hyperquest": "^0.3.0",
     "mem-cache": "0.0.4",
